@@ -1,0 +1,17 @@
+
+#File Handling
+
+## Reading
+.rstrip() in File handling to exclude and string in the list.
+.seek(0) - to set the pointer to 0 while using readlines() instead of read()
+
+ file=open("filename.txt",'r')
+ """
+ file is a variable
+ where we assign a value of file by opening it in python using open().
+ """
+without closing the file changes won't be saved.
+file.close()
+
+##Writing
+Writing a content inside a file
