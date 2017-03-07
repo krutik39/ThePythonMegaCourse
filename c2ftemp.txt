@@ -1,0 +1,7 @@
+[50.0, -4.0, -488.20000000000005, 212.0]
+"""
+with open("c2ftemp.txt",'a+') as file:
+...     file.seek(0)
+...     content=[(i*9)/5+32 for i in temperatures]
+...     file.write(str(content)+"\n")
+"""

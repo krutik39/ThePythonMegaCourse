@@ -15,3 +15,12 @@ file.close()
 
 ##Writing
 Writing a content inside a file
+file.write("")
+'w' method is not an append method.
+It creates an empty file and write from the start.
+
+r+ - Doesn't overwrite existing file but points the pointer at the top.
+w+ - Overwrites the existing file
+a+ - The file pointer is at the end of the file if the file exists.
+
+Use "with" to avoid using file.close() for every time at the last of file handling statements.
