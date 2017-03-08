@@ -24,3 +24,11 @@ w+ - Overwrites the existing file
 a+ - The file pointer is at the end of the file if the file exists.
 
 Use "with" to avoid using file.close() for every time at the last of file handling statements.
+
+using r at the beginning of doc string will ignore any functions and will consider it as a part of
+doc string
+
+ex: r"""
+Hey There! How are you ? \n
+"""
+\n in the comment section won't go to next line. It will just display text as it is.
